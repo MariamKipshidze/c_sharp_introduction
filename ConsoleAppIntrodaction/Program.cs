@@ -11,5 +11,7 @@ class Program
         Console.WriteLine("Hello " + "World");
         InfoPrinter printer = new InfoPrinter();
         printer.PrintInfo();
+        ConstantVariable myNum = new ConstantVariable();
+        myNum.PrintInfo();
     }
 }
